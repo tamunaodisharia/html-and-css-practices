@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+h1{
+    background-color: seashell;
+}
+h2{
+    background-color: beige;
+}
+img{
+    border: 10px solid black;
+}
+a>img:hover{
+    border: 15px solid  gray;
+}
+.content{
+    background-color: rgb(241, 220, 230);
+}
+

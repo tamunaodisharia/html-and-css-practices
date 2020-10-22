@@ -1,0 +1,25 @@
+#title{
+    color:white
+}
+a{
+    text-decoration: none;
+    color:black
+}
+header{
+    background-color: black;
+}
+nav ul li a{
+    color:white;
+}
+nav ul li{
+    color:white;
+}
+article{
+    background-color:#f5e5b5;
+}
+nav ul li:hover{
+    background-color: #f5c842;
+}
+p{
+    text-align: center;
+}

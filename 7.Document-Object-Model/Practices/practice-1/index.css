@@ -1,0 +1,23 @@
+img {
+    width: 300px;
+}
+article {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid gray;
+    margin-left: 20px;
+}
+
+h2{
+    padding-left: 30px;
+}
+a{
+    display:block;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: gray;
+}
+h1 {
+    margin: 20px;
+}

@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+}
+.flex1{
+    margin-top:23px;
+    display:flex;
+    justify-content:space-between;
+    width:69.7%;
+    height:220px;
+    margin-bottom:20px;
+}
+.flex1 div{
+    width: 23.4%;
+    height:220px;
+    background-color:#E1E1E1;
+}
+.flex2{
+    display:flex;
+    justify-content:space-between;
+    width:69.7%;
+    height:100px;
+    margin-bottom:20px;
+}
+.flex2 div{
+    width: 10.5%;
+    height:100px;
+    background-color:#E1E1E1;
+}
+.flex3{
+    display:flex;
+    justify-content:space-between;
+    width:69.7%;
+    height:220px;
+    margin-bottom:20px;
+}
+.flex3 div:first-child{
+    width: 74.5%;
+    height:220px;
+    background-color:#E1E1E1;
+}
+.flex3 div:last-child{
+    width: 23.4%;
+    height:220px;
+    background-color:#E1E1E1;
+}
+.flex4{
+    display:flex;
+    justify-content:space-between;
+    width:69.7%;
+    height:220px;
+    margin-bottom:20px;
+}
+.flex4 div:last-child{
+    width: 74.5%;
+    height:220px;
+    background-color:#E1E1E1;
+}
+.flex4 div:first-child{
+    width: 23.4%;
+    height:220px;
+    background-color:#E1E1E1;
+}
+.flex5{
+    display:flex;
+    justify-content:space-between;
+    width:69.7%;
+    height:220px;
+    margin-bottom:20px;
+}
+.flex5 div{
+    width:48.8%;
+    height:220px;
+    background-color:#E1E1E1;
+}

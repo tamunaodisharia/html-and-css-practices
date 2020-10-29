@@ -1,0 +1,27 @@
+body{
+    margin:0;
+}
+.container{
+    background-image: url(assets/Image\ 1.png);
+    width:100vw;
+    height:100vh;
+    background-size:cover;
+    background-position:0 -15vh;
+    z-index:0;
+}
+.text{
+    
+    width:90vw;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.gradient{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.67),rgba(0,0,0,0.81),rgba(0,0,0,1));
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    z-index:1;
+}

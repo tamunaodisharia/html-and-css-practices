@@ -1,0 +1,141 @@
+$heading-color: #2C3E50;
+$message-color: #A1B1BC;
+$font: 'Lato', sans-serif;
+$closeColor:#CFD2D3;
+$alertBorder:#E2E6E7;
+$color-1:#FFC12D;
+$border-1:#F9B718;
+$icon-1:#A47503;
+$color-2:#97E411;
+$border-2:#7BC200;
+$icon-2:#558502;
+$color-3:#FD7761;
+$border-3:#F55C43;
+$icon-3:#D52E13;
+$color-4:#6FD9FC;
+$border-4:#47B4F6;
+$icon-4:#0787D4;
+$color-5:#A39CDC;
+$border-5:#8781BD;
+$icon-5:#5B568E;
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family:$font;
+    font-weight:400;
+}
+body{
+    padding-top:89px;
+}
+h1{
+    font-family: $font;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 26px;
+    color: $heading-color;
+}
+.container{
+    width: 60.9895%;
+    height:632.52px;
+    min-width:1171px;
+    margin:auto;
+    .grid-container{
+        display:grid;
+        grid-template-columns: 570px 570px;
+        grid-template-rows: 62.52px 150px 150px 150px;
+        grid-gap:30px;
+        #grid-item-1, #grid-item-6{
+            grid-column:span 2;
+        }
+        #grid-item-1{
+            padding-top:10px;
+        }
+        .alert{
+            border:1px solid $alertBorder;
+            border-radius:8px;
+            padding-left:50px;
+            padding-top:32px;
+            position:relative;
+            button{
+                position:absolute;
+                top:11px;
+                right:15px;
+                color:$closeColor;
+                font-size:14px;
+                line-height:24px;
+                border:none;
+                background: transparent;
+                width:20px;
+            }
+            .icon{
+                width:50px;
+                height:50px;
+                border-width:7px;
+                border-radius:50%;
+                border-style: solid;
+                float:left;
+                margin-right:29px;
+                text-align: center;
+                vertical-align: center;
+                margin-top:7px;
+                i{
+                    font-size:24px;
+                    line-height: 50px;
+                  
+                }
+            }
+            h2{
+                font-size:14px;
+                color:$heading-color;
+                font-weight:900;
+                line-height:26px;
+                float:left;
+                letter-spacing:1.4px;
+                
+            }
+          .message{
+                font-size:14px;
+                line-height:24px;
+                color:$message-color;
+                width:357.05px;
+                float:left;
+                margin-top:6px;
+            }
+            
+        }
+        #grid-item-6{
+            .message{
+                width:998.48px;
+            }   
+        }
+        #circle-1{
+            background: $color-1;
+            border-color: $border-1;
+            color: $icon-1;
+        }
+        #circle-2{
+            background: $color-2;
+            border-color: $border-2;
+            color: $icon-2;
+        }
+        #circle-3{
+            background: $color-3;
+            border-color: $border-3;
+            color: $icon-3;
+        }
+        #circle-4{
+            background: $color-4;
+            border-color: $border-4;
+            color: $icon-4;
+        }
+        #circle-5{
+            background: $color-5;
+            border-color: $border-5;
+            color: $icon-5;
+        }
+        
+    }
+    
+}

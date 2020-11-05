@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  padding-top: 89px;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 26px;
+  color: #2C3E50;
+}
+
+.container {
+  width: 60.9895%;
+  height: 632.52px;
+  min-width: 1171px;
+  margin: auto;
+}
+
+.container .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 570px 570px;
+      grid-template-columns: 570px 570px;
+  -ms-grid-rows: 62.52px 150px 150px 150px;
+      grid-template-rows: 62.52px 150px 150px 150px;
+  grid-gap: 30px;
+}
+
+.container .grid-container #grid-item-1, .container .grid-container #grid-item-6 {
+  grid-column: span 2;
+}
+
+.container .grid-container #grid-item-1 {
+  padding-top: 10px;
+}
+
+.container .grid-container .alert {
+  border: 1px solid #E2E6E7;
+  border-radius: 8px;
+  padding-left: 50px;
+  padding-top: 32px;
+  position: relative;
+}
+
+.container .grid-container .alert button {
+  position: absolute;
+  top: 11px;
+  right: 15px;
+  color: #CFD2D3;
+  font-size: 14px;
+  line-height: 24px;
+  border: none;
+  background: transparent;
+  width: 20px;
+}
+
+.container .grid-container .alert .icon {
+  width: 50px;
+  height: 50px;
+  border-width: 7px;
+  border-radius: 50%;
+  border-style: solid;
+  float: left;
+  margin-right: 29px;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 7px;
+}
+
+.container .grid-container .alert .icon i {
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.container .grid-container .alert h2 {
+  font-size: 14px;
+  color: #2C3E50;
+  font-weight: 900;
+  line-height: 26px;
+  float: left;
+  letter-spacing: 1.4px;
+}
+
+.container .grid-container .alert .message {
+  font-size: 14px;
+  line-height: 24px;
+  color: #A1B1BC;
+  width: 357.05px;
+  float: left;
+  margin-top: 6px;
+}
+
+.container .grid-container #grid-item-6 .message {
+  width: 998.48px;
+}
+
+.container .grid-container #circle-1 {
+  background: #FFC12D;
+  border-color: #F9B718;
+  color: #A47503;
+}
+
+.container .grid-container #circle-2 {
+  background: #97E411;
+  border-color: #7BC200;
+  color: #558502;
+}
+
+.container .grid-container #circle-3 {
+  background: #FD7761;
+  border-color: #F55C43;
+  color: #D52E13;
+}
+
+.container .grid-container #circle-4 {
+  background: #6FD9FC;
+  border-color: #47B4F6;
+  color: #0787D4;
+}
+
+.container .grid-container #circle-5 {
+  background: #A39CDC;
+  border-color: #8781BD;
+  color: #5B568E;
+}
+/*# sourceMappingURL=index.css.map */

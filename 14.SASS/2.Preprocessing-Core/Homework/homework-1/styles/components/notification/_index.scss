@@ -1,0 +1,110 @@
+.container{
+    width: 60.9895%;
+    height:632.52px;
+    min-width:1171px;
+    margin:auto;
+    .grid-container{
+        display:grid;
+        grid-template-columns: 570px 570px;
+        grid-template-rows: 62.52px 150px 150px 150px;
+        grid-gap:30px;
+        h1{
+            font-family: $font;
+            font-weight: 100;
+            font-size: 30px;
+            line-height: 26px;
+            color: $heading-color;
+        }
+        #grid-item-1, #grid-item-6{
+            grid-column:span 2;
+        }
+        #grid-item-1{
+            padding-top:10px;
+        }
+        .alert{
+            border:1px solid $alertBorder;
+            border-radius:8px;
+            padding-left:50px;
+            padding-top:32px;
+            position:relative;
+            button{
+                position:absolute;
+                top:11px;
+                right:15px;
+                color:$closeColor;
+                font-size:14px;
+                line-height:24px;
+                border:none;
+                background: transparent;
+                width:20px;
+            }
+            .icon{
+                width:50px;
+                height:50px;
+                border-width:7px;
+                border-radius:50%;
+                border-style: solid;
+                float:left;
+                margin-right:29px;
+                text-align: center;
+                vertical-align: center;
+                margin-top:7px;
+                i{
+                    font-size:24px;
+                    line-height: 50px;
+                  
+                }
+            }
+            h2{
+                font-size:14px;
+                color:$heading-color;
+                font-weight:900;
+                line-height:26px;
+                float:left;
+                letter-spacing:1.4px;
+                
+            }
+          .message{
+                font-size:14px;
+                line-height:24px;
+                color:$message-color;
+                width:357.05px;
+                float:left;
+                margin-top:6px;
+            }
+            
+        }
+        #grid-item-6{
+            .message{
+                width:998.48px;
+            }   
+        }
+        #circle-1{
+            background: $color-1;
+            border-color: $border-1;
+            color: $icon-1;
+        }
+        #circle-2{
+            background: $color-2;
+            border-color: $border-2;
+            color: $icon-2;
+        }
+        #circle-3{
+            background: $color-3;
+            border-color: $border-3;
+            color: $icon-3;
+        }
+        #circle-4{
+            background: $color-4;
+            border-color: $border-4;
+            color: $icon-4;
+        }
+        #circle-5{
+            background: $color-5;
+            border-color: $border-5;
+            color: $icon-5;
+        }
+        
+    }
+    
+}

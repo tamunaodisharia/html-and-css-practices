@@ -1,0 +1,119 @@
+
+@mixin colors($bg-color, $color, $icon){
+    background-color:$bg-color;
+    div{
+        color:$color;
+        i{
+            color:$icon;
+        }
+    }
+   button{
+       color:$color;
+   }
+}
+.container{
+    width: 60.9895%;
+    height:632.52px;
+    min-width:1171px;
+    margin:auto;
+    h1{
+        font-family: $font;
+        font-weight: 100;
+        font-size: 30px;
+        line-height: 26px;
+        color: $heading-color;
+    }
+    .grid-container{
+        display:grid;
+        grid-template-columns: 570px 570px;
+        grid-template-rows: 62.52px 150px 150px 150px;
+        grid-gap:30px;
+        #grid-item-1, #grid-item-6{
+            grid-column:span 2;
+        }
+        #grid-item-1{
+            padding-top:13px;
+        }
+        #grid-item-2{
+            
+            @include colors($color-1,$border-1,$icon-1);
+        }
+        #grid-item-3{
+            
+            @include colors($color-2,$border-2,$icon-2);
+        }
+        #grid-item-4{
+            
+            @include colors($color-3,$border-3,$icon-3);
+        }
+        #grid-item-5{
+            
+            @include colors($color-4,$border-4,$icon-4);
+        }
+        #grid-item-6{
+            
+            @include colors($color-5,$border-5,$icon-5);
+        }
+        
+        .alert{
+            border:1px solid $alertBorder;
+            border-radius:8px;
+            padding-left:50px;
+            padding-top:35px;
+            position:relative;
+            button{
+                position:absolute;
+                top:12px;
+                right:14px;
+                font-size:14px;
+                line-height:24px;
+                border:none;
+                background: transparent;
+                width:20px;
+            }
+            .icon{
+                width:50px;
+                height:50px;
+                border-width:7px;
+                border-radius:50%;
+                border-style: solid;
+                float:left;
+                margin-right:29px;
+                text-align: center;
+                vertical-align: center;
+                margin-top:7px;
+                i{
+                    font-size:24px;
+                    line-height: 50px;
+                  
+                }
+            }
+            h2{
+                font-size:14px;
+                color:$heading-color;
+                font-weight:900;
+                line-height:26px;
+                float:left;
+                letter-spacing:1.4px;
+                
+            }
+          .message{
+                font-size:14px;
+                line-height:24px;
+                color:$message-color;
+                width:357.05px;
+                float:left;
+                margin-top:6px;
+            }
+            
+        }
+        #grid-item-6{
+            .message{
+                width:998.48px;
+            }   
+        }
+        
+        
+    }
+    
+}
